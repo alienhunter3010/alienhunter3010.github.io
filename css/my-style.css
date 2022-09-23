@@ -1,0 +1,13 @@
+#myself {
+  width: 15rem;
+  height: 15rem;
+  max-width: 15rem !important;
+  max-height: 15rem !important;
+  object-fit: none;
+  object-position: 45% 25%;
+  transform: scale(0.75);
+}
+
+#google-tools {
+  width: 50px;
+}
