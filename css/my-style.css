@@ -8,6 +8,12 @@
   transform: scale(0.75);
 }
 
+.my-stacked {
+  width: 1.1em;
+  height: 1em;
+  vertical-align: -0.125em
+}
+
 #google-tools {
   width: 50px;
 }
