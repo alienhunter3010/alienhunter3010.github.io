@@ -10,6 +10,28 @@
 }
 */
 
+.dark #sideNav {
+  background-color: #444 !important;
+}
+
+.dark #page-top {
+  background-color: #222 !important;
+  color: #eee;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5 {
+  color: #eee;
+}
+
+.dark .fa-inverse {
+  color: #000;
+}
+
+.note {
+  font-style: italic;
+  color: #888;
+}
+
 #myself {
   position: relative;
   top: -300px;
@@ -22,6 +44,10 @@
   object-position: 50% 30%;
   transform: scale(0.13);
   border: 4rem solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.stars-inverse {
+  color: #0d6efd;
 }
 
 .navbar-brand {
