@@ -1,3 +1,4 @@
+/*
 #myself {
   width: 15rem;
   height: 15rem;
@@ -6,6 +7,27 @@
   object-fit: none;
   object-position: 45% 25%;
   transform: scale(0.75);
+}
+*/
+
+#myself {
+  position: relative;
+  top: -300px;
+  bottom: 250px;
+  width: 70rem;
+  height: 70rem;
+  max-width: 70rem !important;
+  max-height: 70rem !important;
+  object-fit: none;
+  object-position: 50% 30%;
+  transform: scale(0.13);
+  border: 4rem solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.navbar-brand {
+  max-height: 22rem;
+  margin: 0 !important;
+  padding: 0 !important
 }
 
 .my-stacked {
